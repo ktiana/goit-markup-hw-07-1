@@ -1,0 +1,27 @@
+.clients__section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .clients__list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .clients__logo {
+    fill: var(--grey);
+    transition: 250ms fill var(--cubic);
+  }
+  .clients__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--grey);
+  
+    border-radius: 4px;
+    color: var(--grey);
+  
+    transition: 250ms border-color var(--cubic);
+  }

@@ -700,7 +700,7 @@ a {
 /* /* MODAL ==================================================
 ================================================================*/
 /* початковий стан */
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -711,8 +711,8 @@ a {
   transition: opacity 250ms var(--cubic);
   visibility: visible;
   pointer-events: initial;
-}
-.modal {
+} */
+/* .modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -725,18 +725,18 @@ a {
   background: var(--white-text-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-}
-.backdrop.is-hidden {
+} */
+/* .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
-}
+} */
 /* кінцевий стан */
-.backdrop.is-hidden .modal {
+/* .backdrop.is-hidden .modal {
   opacity: 0;
   transform: translate(-50%, -50%);
-}
- .close-btn {
+} */
+ /* .close-btn {
   position: absolute;
   display: flex;
   align-items: center;
@@ -760,12 +760,12 @@ a {
 .svg-close-icon {
   fill: currentColor;
   transition: 250ms fill var(--cubic);
-}
+} */
 
 /* *Subscription FORM =================================================
 ====================================================================== */
 
-.footer-subscription {
+/* .footer-subscription {
   margin-left: 93px;
   width: 358px;
   height: 50px;
@@ -813,6 +813,11 @@ a {
   border-color: var(--accent-color);
 }
 
+.subscription__svg {
+  fill: var(--white-text-color);
+} */
+
+
 /* .subscription__button {
   display: flex;
   align-items: center;
@@ -844,10 +849,7 @@ a {
 .subscription__button:hover,
 .subscription__button:focus {
   background: var(--accent-color);
-} */
-.subscription__svg {
-  fill: var(--white-text-color);
-}
+}  */
 
 
 /* *SERVICEORDER FORM =================================================
